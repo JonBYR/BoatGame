@@ -8930,7 +8930,7 @@ Transform:
   m_GameObject: {fileID: 824827613}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8, y: 20, z: 100}
+  m_LocalPosition: {x: 27, y: 20, z: -67}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10668,7 +10668,7 @@ Transform:
   m_GameObject: {fileID: 1013269809}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -28, y: 20, z: 48}
+  m_LocalPosition: {x: 33, y: 20, z: 48}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14807,7 +14807,7 @@ Transform:
   m_GameObject: {fileID: 1385482756}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 141.7, y: 20, z: 26}
+  m_LocalPosition: {x: 39, y: 20, z: -233}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -21869,7 +21869,7 @@ Transform:
   m_GameObject: {fileID: 2092882547}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 99, y: 20, z: 73}
+  m_LocalPosition: {x: 39, y: 20, z: -231}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -22708,6 +22708,14 @@ PrefabInstance:
       propertyPath: winPanel
       value: 
       objectReference: {fileID: 100736823}
+    - target: {fileID: 6901077296500560563, guid: bbee075321e46474abc9fa3829d82b90, type: 3}
+      propertyPath: underWaterDrag
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6901077296500560563, guid: bbee075321e46474abc9fa3829d82b90, type: 3}
+      propertyPath: underWaterAngularDrag
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8120846953918481435, guid: bbee075321e46474abc9fa3829d82b90, type: 3}
       propertyPath: backCamera
       value: 
