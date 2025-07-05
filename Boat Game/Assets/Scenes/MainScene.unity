@@ -726,7 +726,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3410195092300183259, guid: a9c425641d0e30f4c97d543454446250, type: 3}
       propertyPath: timeScale
-      value: 0.1
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 3410195092300183259, guid: a9c425641d0e30f4c97d543454446250, type: 3}
       propertyPath: startPathReversed
@@ -13720,7 +13720,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3410195092300183259, guid: a9c425641d0e30f4c97d543454446250, type: 3}
       propertyPath: timeScale
-      value: 0.1
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 3410195092300183259, guid: a9c425641d0e30f4c97d543454446250, type: 3}
       propertyPath: checkpoints.Array.data[0]
@@ -17764,7 +17764,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3410195092300183259, guid: a9c425641d0e30f4c97d543454446250, type: 3}
       propertyPath: timeScale
-      value: 0.1
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 3410195092300183259, guid: a9c425641d0e30f4c97d543454446250, type: 3}
       propertyPath: startPathReversed
@@ -21382,7 +21382,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3410195092300183259, guid: a9c425641d0e30f4c97d543454446250, type: 3}
       propertyPath: timeScale
-      value: 0.1
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 3410195092300183259, guid: a9c425641d0e30f4c97d543454446250, type: 3}
       propertyPath: startPathReversed
@@ -22940,7 +22940,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3410195092300183259, guid: a9c425641d0e30f4c97d543454446250, type: 3}
       propertyPath: timeScale
-      value: 0.1
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 3410195092300183259, guid: a9c425641d0e30f4c97d543454446250, type: 3}
       propertyPath: checkpoints.Array.data[0]
