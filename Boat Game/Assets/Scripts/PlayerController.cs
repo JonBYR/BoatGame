@@ -15,6 +15,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] GameObject winPanel;
     private SwitchCameras cam;
     [SerializeField] float dragFactor = 100;
+    public AudioSource playerAudio;
+    bool audioClipStart = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -57,14 +59,22 @@ public class PlayerController : MonoBehaviour
             }
             if (moveDirection.y != 0)
             {
+                if (audioClipStart == false)
+                {
+                    audioClipStart = true;
+                    playerAudio.Play();
+                }
                 playerRb.drag = playerRb.velocity.magnitude / dragFactor; //boat should have a maximum acceleration, so apply proportional drag based on current speed
                 playerRb.AddForce(transform.forward * moveDirection.y * moveForce); //move forwards based on directional input, acceleration applied naturally
             }
             else
             {
+                playerAudio.Pause();
+                audioClipStart = false;
                 playerRb.drag = moveForce / 10; //set drag to slow acceleration 
             }
         }
+        
     }
     void DisplayWinUI()
     {
